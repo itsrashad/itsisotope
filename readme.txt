@@ -1,4 +1,4 @@
-# == itsIsotope==
+#== itsIsotope==
 Contributors: itsrashad
 Tags: isotope, javascript, posts
 Requires at least: 3.5.1
@@ -9,11 +9,11 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Allows you to use Metafizzy's Isotope to display feeds of WordPress posts using simple shortcodes. Works with custom post types and custom taxonomies too.
 
-# == Description ==
+#== Description ==
 
 itsIsotope is a simple WordPress implementation of Metafizzy's javascript Isotope plugin. Use the plugin settings page to customize Isotope options and create loops of WordPress posts, then implement them on your site using simple shortcodes. Magic.
 
-# == Some features: ==
+#== Some features: ==
 
 * No need to muck around with javascript or theme files – implement Isotope directly in the WordPress editor with a simple shortcode!
 * Includes essential Isotope features, including the option for a filter menu, sorting options, and layout options
@@ -21,7 +21,7 @@ itsIsotope is a simple WordPress implementation of Metafizzy's javascript Isotop
 * Grab the post's featured image include with the excerpt (if one is set)
 * Minimal included css makes it easier to customize the look and feel of the loop output for your site
 
-# == New in v2 ==
+#== New in v2 ==
 
 * Create and save as many Isotope shortcodes as you want to use on multiple pages throughout your site
 * Paginate your loop of posts using infinite scrolling (rather than loading them all at once)
@@ -36,14 +36,14 @@ If you're upgrading to v2+ of itsIsotope from v1.X, you'll need to run the [itsI
 
 Metafizzy's javascript Isotope plugin is licensed under MIT and free to use for non-commercial, personal, open-source projects only. Find out more about [commercial licensing](http://isotope.metafizzy.co/license.html) if you plan on using this plugin for commercial purposes.
 
-# == Installation ==
+#== Installation ==
 
 1. Extract the `itsisotope.zip` and remove `-master` from the extracted directory name
 2. Upload the `itsisotope` folder and its contents to the `/wp-content/plugins/` directory
 3. Activate the plugin through the 'Plugins' menu in WordPress
 4. Go to the Settings > itsIsotope page and adjust the settings as needed.
 
-# == Frequently Asked Questions ==
+#== Frequently Asked Questions ==
 
 = How do I make this thing work in my theme? =
 
@@ -86,13 +86,13 @@ Play it safe. While you can implement multiple itsIsotope shortcodes throughout 
 
 Yes, but no translations are available quite yet.
 
-# == Screenshots ==
+== Screenshots ==
 
 1. List of saved Isotope Post shortcodes
 2. itsIsotope settings modal
 3. Sample of featured image and excerpt output
 
-# == Changelog ==
+== Changelog ==
 
 = 2.1 =
 * Add `before_isotope_title`, `before_isotope_content`, and `after_isotope_content` action hooks to allow customization of Isotope item content.
@@ -155,6 +155,7 @@ Yes, but no translations are available quite yet.
 = 1.0 =
 * Initial plugin release.
 
-# == Credit Roll ==
+== Credit Roll ==
 
+* Tom McFarlin's time-saving [WordPress Plugin Boilerplate](https://github.com/tommcfarlin/WordPress-Plugin-Boilerplate). Why start from scratch when you don't have to?
 * David DeSandro's (Metafizzy) [Isotope](http://isotope.metafizzy.co/index.html) jQuery plugin. Minimum js input, maximum interactive fun.
